@@ -190,6 +190,7 @@
     <Content Include="assets\font-awesome\scss\_stacked.scss" />
     <Content Include="assets\font-awesome\scss\_variables.scss" />
     <Content Include="LICENSE" />
+    <Content Include="netlify.toml" />
     <None Include="packages.config" />
     <Content Include="README.md" />
     <Content Include="Views\Home\Index.cshtml" />
