@@ -144,7 +144,6 @@
     <Content Include="js\script.js" />
     <Content Include="js\waypoints.min.js" />
     <Content Include="Web.config" />
-    <Content Include="_redirects.txt" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
@@ -200,6 +199,7 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+    <Content Include="_redirects" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
